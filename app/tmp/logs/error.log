@@ -1,0 +1,641 @@
+2013-12-11 15:27:36 Error: [MissingHelperException] Helper class HTMLHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HTMLHelper',
+  'plugin' => false,
+)
+Request URL: /books/index
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/View/View.php(867): HelperCollection->load('HTML', Array)
+#1 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/View/View.php(341): View->loadHelpers()
+#2 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Controller/Controller.php(1240): View->__construct(Object(BooksController))
+#3 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-12-11 15:45:47 Error: [MissingHelperException] Helper class HTMLHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HTMLHelper',
+  'plugin' => false,
+)
+Request URL: /books/index
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/View/View.php(867): HelperCollection->load('HTML', Array)
+#1 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/View/View.php(341): View->loadHelpers()
+#2 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Controller/Controller.php(1240): View->__construct(Object(BooksController))
+#3 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Controller/Controller.php(938): Controller->_getViewObject()
+#4 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#5 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#6 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-12-12 11:14:40 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/index.ctp
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 11:15:22 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/index.ctp
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 11:17:41 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/index.ctp
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 11:17:42 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/index.ctp
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 11:17:43 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/index.ctp
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 11:17:49 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/index
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 11:17:51 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/index
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 11:17:52 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/index
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 11:17:55 Error: [MissingControllerException] Controller class BookController could not be found.
+Exception Attributes: array (
+  'class' => 'BookController',
+  'plugin' => NULL,
+)
+Request URL: /book/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-12 12:19:16 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+Request URL: /books/add
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO "pu...')
+#3 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Book), Array, Array)
+#4 /home/webonise/projects/php/apps2013/CakePhpDemo/app/Controller/BooksController.php(33): Model->save(Array)
+#5 [internal function]: BooksController->add()
+#6 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BooksController), Array)
+#7 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /home/webonise/projects/php/apps2013/CakePhpDemo/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(BooksController), Object(CakeRequest), Object(CakeResponse))
+#9 /home/webonise/projects/php/apps2013/CakePhpDemo/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-12-13 16:10:13 Error: Fatal Error (1): Call to undefined method CategoriesController::array_cleanup() in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 34]
+2013-12-13 16:10:13 Error: [FatalErrorException] Call to undefined method CategoriesController::array_cleanup()
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/webonise/...', 34)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/webonise/...', 34, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/webonise/...', 34, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-13 16:18:45 Error: Fatal Error (4): syntax error, unexpected '=' in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 76]
+2013-12-13 16:18:45 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 76)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 76, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webonise/...', 76, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-13 18:20:52 Error: Fatal Error (1): Call to a member function save() on a non-object in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 46]
+2013-12-13 18:20:52 Error: [FatalErrorException] Call to a member function save() on a non-object
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/webonise/...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/webonise/...', 46, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/webonise/...', 46, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-13 18:38:10 Error: [MissingDatasourceException] Datasource class MySQL could not be found. 
+Exception Attributes: array (
+  'class' => 'MySQL',
+  'plugin' => false,
+)
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::loadDataSource('default')
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(3471): ConnectionManager::getDataSource('default')
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(3493): Model->setSource('categories')
+#4 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#5 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1218): Model->schema()
+#6 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1181): Model->_setAliasData(Array)
+#7 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1711): Model->set(Array)
+#8 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php(46): Model->save(Array)
+#9 [internal function]: CategoriesController->index()
+#10 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#11 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-13 18:39:40 Error: [MissingDatasourceException] Datasource class mysql could not be found. 
+Exception Attributes: array (
+  'class' => 'mysql',
+  'plugin' => false,
+)
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::loadDataSource('default')
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(3471): ConnectionManager::getDataSource('default')
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(3493): Model->setSource('categories')
+#4 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#5 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1218): Model->schema()
+#6 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1181): Model->_setAliasData(Array)
+#7 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1711): Model->set(Array)
+#8 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php(46): Model->save(Array)
+#9 [internal function]: CategoriesController->index()
+#10 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#11 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-13 18:39:57 Error: [MissingDatasourceException] Datasource class mySql could not be found. 
+Exception Attributes: array (
+  'class' => 'mySql',
+  'plugin' => false,
+)
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/ConnectionManager.php(94): ConnectionManager::loadDataSource('default')
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(3471): ConnectionManager::getDataSource('default')
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(3493): Model->setSource('categories')
+#4 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#5 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1218): Model->schema()
+#6 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1181): Model->_setAliasData(Array)
+#7 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1711): Model->set(Array)
+#8 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php(46): Model->save(Array)
+#9 [internal function]: CategoriesController->index()
+#10 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#11 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#13 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-12-13 18:40:42 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'poojawebonise\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(3471): ConnectionManager::getDataSource('default')
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(3493): Model->setSource('categories')
+#5 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1353): Model->getDataSource()
+#6 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1218): Model->schema()
+#7 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1181): Model->_setAliasData(Array)
+#8 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1711): Model->set(Array)
+#9 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php(46): Model->save(Array)
+#10 [internal function]: CategoriesController->index()
+#11 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#12 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#13 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#14 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class Food.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Food.cssController',
+  'plugin' => NULL,
+)
+Request URL: /food.css
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/logo.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/top.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/rakhi.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/vegetarian.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/indain-breads.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/non-veg.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/microwave-cookinh.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/snacks.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/indo-chinese.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/body-bg.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/desserts.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/bg-td.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/rakhi.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/indain-breads.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/bg-td-home.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:15:26 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class Food.cssController could not be found.
+Exception Attributes: array (
+  'class' => 'Food.cssController',
+  'plugin' => NULL,
+)
+Request URL: /food.css
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/logo.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/top.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/rakhi.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/indain-breads.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/indo-chinese.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/vegetarian.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/non-veg.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/snacks.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/microwave-cookinh.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/bg-td.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/desserts.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:51 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/body-bg.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/non-veg.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/vegetarian.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/rakhi.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/snacks.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/indo-chinese.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/indain-breads.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/desserts.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/bg-td-home.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/microwave-cookinh.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-13 19:19:52 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
