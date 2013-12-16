@@ -639,3 +639,63 @@ Request URL: /images/blt.gif
 Stack Trace:
 #0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-12-16 10:58:07 Error: Fatal Error (1): Call to undefined method CategoriesController::getLink() in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 36]
+2013-12-16 10:58:07 Error: [FatalErrorException] Call to undefined method CategoriesController::getLink()
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/webonise/...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/webonise/...', 36, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/webonise/...', 36, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-16 11:19:51 Error: Fatal Error (1): Call to undefined method DOMNodeList::getElementsByTagName() in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 103]
+2013-12-16 11:19:51 Error: [FatalErrorException] Call to undefined method DOMNodeList::getElementsByTagName()
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/webonise/...', 103)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/webonise/...', 103, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/webonise/...', 103, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-16 11:24:15 Error: Fatal Error (1): Cannot use object of type DOMNodeList as array in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 118]
+2013-12-16 11:24:15 Error: [FatalErrorException] Cannot use object of type DOMNodeList as array
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/webonise/...', 118)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/webonise/...', 118, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/webonise/...', 118, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-16 11:27:15 Error: Fatal Error (1): Cannot use object of type DOMNodeList as array in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 130]
+2013-12-16 11:27:15 Error: [FatalErrorException] Cannot use object of type DOMNodeList as array
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/home/webonise/...', 130)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/home/webonise/...', 130, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/home/webonise/...', 130, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-16 11:38:11 Error: Fatal Error (1): Call to undefined method DOMDocument::find() in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 100]
+2013-12-16 11:38:11 Error: [FatalErrorException] Call to undefined method DOMDocument::find()
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/webonise/...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/webonise/...', 100, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/webonise/...', 100, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-16 12:42:18 Error: Fatal Error (1): Call to undefined method CategoriesController::getReceipeDetails() in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 150]
+2013-12-16 12:42:18 Error: [FatalErrorException] Call to undefined method CategoriesController::getReceipeDetails()
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/webonise/...', 150)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/webonise/...', 150, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/webonise/...', 150, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
