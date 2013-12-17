@@ -23,10 +23,11 @@ class CategoriesController extends AppController {
 
             }
             else{
-                 //$linkList =   $this->getLinks($url);
-                $linkList =   $this->getRecipe($url);
+               // $this->getRecipe($url);
+                 $linkList =   $this->getLinks($url);
+
                  //pr($linkList);
-                /* $deleteLink = array('67','133'.'134','135','136','137','138','139','140');
+                $deleteLink = array('67','133'.'134','135','136','137','138','139','140');
                  $categoryList = $this->arrayClean($linkList,$deleteLink );
 
 
@@ -55,23 +56,32 @@ class CategoriesController extends AppController {
 
 
                     }
-                 pr($insertData);
-                //unset($insertData['Category'][0]);
 
+                        unset($insertData[0]);
+                            pr($insertData);
+                    //unset($insertData[0]['name']);
                             $this->Category->create();
                             if($this->Category->saveMany($insertData)){
+                                  $this->getRecipe($url);
+
                             }
                             else{
                                 echo mysql_error();
                             }
 
-                //pr($this->Category->find('all'));
-
-//                $data['Category']['name']='ga';
 
 
 
-                   */
+
+
+                //recipe Insert
+               /*  $this->Category->Recipe->create();
+                 if($this->Category->Recipe->saveMany($RecipeList)){
+                 }
+                 else{
+                     echo mysql_error();
+                 }      */
+
             }
 
             }
@@ -84,13 +94,13 @@ class CategoriesController extends AppController {
     }
 
     function getLinks($url){
-        /*$ch = curl_init();
+        $ch = curl_init();
         $timeout = 5;
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
         $html = curl_exec($ch);
-        //pr($html);die;
+        pr($html);
         curl_close($ch);
         $dom = new DOMDocument();
         # The @ before the method call suppresses any warnings that
@@ -107,7 +117,7 @@ class CategoriesController extends AppController {
 
         }
 
-        return $aLink ;*/
+        return $aLink ;
     }
 
     function arrayClean( $array, $toDelete )
@@ -119,52 +129,121 @@ class CategoriesController extends AppController {
     }
 
     function getRecipe($url){
-        $ch = curl_init();
+       $ch = curl_init();
         $timeout = 5;
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
         $html = curl_exec($ch);
-        //pr($html);die;
+        //pr($html);
         curl_close($ch);
         $dom_document = new DOMDocument();
         # The @ before the method call suppresses any warnings that
         # loadHTML might throw because of invalid HTML in the page.
         @$dom_document->loadHTML($html);
 
-        // var_dump($dom_document);
+        //var_dump($dom_document);
         $dom_xpath = new DOMXpath($dom_document);
-        $anchor = $dom_xpath->query("//td[@bgcolor='808C55']/div[@class='top-link']/a");
-        //var_dump($$anchor);
+       // $anchorRegex = array("//td[@bgcolor='808C55']/div[@class='top-link']/a" ,"//td[@bgcolor='DCE8BD']/div[@class='flinks']/b/a");
+        $anchorRegex = array("//td[@bgcolor='808C55']/div[@class='top-link']/a" );
+        foreach($anchorRegex as $regex){
+           $anchor[] = $dom_xpath->query($regex);
+        }
+
+
+
+        //var_dump($anchor);
+          $position = 0 ;
         if (!is_null($anchor)) {
 
-            foreach ($anchor as $a) {
-                $anchorTag[] = $a->getAttribute("href");
+            foreach ($anchor as $linkShow) {
+                     //echo $linkData ;
+                foreach($linkShow as $a){
+                $anchorTag[$position][] = $a->getAttribute("href");
 
             }
+                $position++ ;
+           }
 
         }
-          //pr($anchorTag);
+       // pr($anchorTag);
+
+        //$completeAnchor = array_merge( $anchorTag[0] , $anchorTag[1]);
+       // pr($completeAnchor);
+        $completeAnchor =  $anchorTag[0];
+        $valueCategory = $this->Category->find('all');
+        //pr($valueCategory);
+
         //return $anchorTag ;
-         foreach($anchorTag as $val){
-             $recipeValue[$val] = $this->getRecipeDetails($val);
-             foreach($recipeValue[$val] as $content){
+        $index = 0;
+        $flag =0 ;
+        foreach($valueCategory as $categoryUrl){
+             $categoryDetails[$index]['name'] = $categoryUrl['Category']['name'];
+             $categoryDetails[$index]['id'] = $categoryUrl['Category']['id'];
+            $index++ ;
+        }
+        //pr($categoryDetails);
+        foreach($completeAnchor as $val){
+            $value = parse_url($val);
+            // var_dump(explode('/',trim($value['path'],"/")));
 
-                 $recipeContent[$val][] = $this->createRecipe($content,$url);
+            $newArray = explode('/',trim($value['path'],"/"));
+            //pr($newArray);
+            $count = count($newArray) ;
 
+            if(($newArray[$count-1]) !='index.html'){
+                $anchorData[$flag]['name']=  rtrim($newArray[$count-1],".html");
+                $anchorData[$flag]['url'] = $val ;
+            }else {
+                $count = count($newArray) ;
+                $anchorData[$flag]['name'] = rtrim($newArray[$count-2],".html");
+                $anchorData[$flag]['url'] = $val ;
+            }
+            $flag++ ;
+        }
+            //pr($anchorData);
+        foreach($categoryDetails as $catData){
+            foreach ($anchorData as $linkData){
+                if($catData['name'] == $linkData['name']){
+                    $recipeValue[$catData['id']] = $this->getRecipeDetails($linkData['url']);
+                   foreach($recipeValue[$catData['id']] as $content){
+
+                        $recipeContent[$catData['id']][] = $this->createRecipe($content,$url,$catData['id']);
+
+                    }
+                }
+            }
+        }
+           // $recipeValue['2'] = $this->getRecipeDetails("http://www.indianfoodforever.com/non-veg/chicken/");
+               //pr($recipeValue);
+             //   $recipeContent['2'][] = $this->createRecipe("http://www.indianfoodforever.com/gujarati/chakli.html",$url,'1');
+
+            //pr($recipeContent);
+        $key = 0 ;
+        foreach($recipeContent as $recipeData){
+            foreach($recipeData as $recipeInsertValue){
+
+                $insertRecipe[$key]['name'] = $recipeInsertValue['name'];
+                $insertRecipe[$key]['imagepath'] = $recipeInsertValue['image'];
+                $insertRecipe[$key]['ingredients'] = $recipeInsertValue['ingredients'];
+                $insertRecipe[$key]['categoryId'] = $recipeInsertValue['CategoryId'];
+                $insertRecipe[$key]['preparation'] = $recipeInsertValue['preparation'];
+                $insertRecipe[$key]['notes'] = 'no values' ;
+                $key++;
+
+            }
+        }
+        //return $insertRecipe ;
+        //pr($insertRecipe);
+        $this->Category->Recipe->create();
+        if($this->Category->Recipe->saveMany($insertRecipe)){
+            echo "confirm" ;
+            $this->Session->setFlash(_('your Recipe has been saved.'));
+             return $this->redirect(array('controller'=>'recipes' ,'action' => 'index'));
              }
-         }
-
-        /* $otherAnchor = $dom_xpath->query("//td[@bgcolor='DCE8BD']/div[@class='flink']/a");
-         if(!is_null($otherAnchor)){
-             foreach($otherAnchor as $ah){
-                 $otherAnchorTag = $ah->getAttribute("href");
-             }
-         }*/
-
-         //$lastAnchor = $dom_xpath->query("")
-        //pr($recipeValue);
-         pr($recipeContent);
+        else{
+            echo mysql_error();
+        }
 
 
     }
@@ -194,7 +273,7 @@ class CategoriesController extends AppController {
 
             foreach ($anchorDetails as $data) {
                 $recipeLink[] = $data->getAttribute("href");
-                echo "here";
+
             }
 
         }
@@ -207,7 +286,7 @@ class CategoriesController extends AppController {
     }
 
 
-    function createRecipe($link,$url){
+    function createRecipe($link,$url,$Id){
         $chNew = curl_init();
         $timeout = 5;
         curl_setopt($chNew, CURLOPT_URL, $link);
@@ -224,28 +303,49 @@ class CategoriesController extends AppController {
         $recipeName =  $headerValue->item(0)->nodeValue;
         $dom_get = new DOMXpath($dom_value);
         $imageSrc = $dom_get->query("//div[@align='CENTER']/img");
+        var_dump($imageSrc);
+           $imageValue = '';
         if(!is_null($imageSrc)) {
-            foreach($imageSrc as $imageContent){
-                $imageValue = $url.$imageContent->getAttribute("src");
-            }
+                foreach($imageSrc as $imageContent){
 
+                if($imageContent->hasAttribute("src"))
+                {
+
+                 $imageValue = $url.$imageContent->getAttribute("src");
+                }
+             }
         }else{
-            $otherImage = $dom_get->query("//td[@valign='TOP']/img");
+            echo "here in image 1" ;
+            $otherImage = $dom_get->query("//td/td[@valign='TOP']/img");
+            //var_dump(
             if(!is_null($otherImage)){
                 foreach($otherImage as $img){
-                    $imageValue = $url.$img->getAttribute("src");
+                    if(!is_null($img->getAttribute("src"))){
+                     $imageValue = $url.$img->getAttribute("src");
+                    }
+                    else{
+                         $imageValue = "no image";
+                    }
                 }
-            }else{
-                $imageValue = "no image";
+             }
+            else{
+                $imageValue = "no image tag" ;
             }
-
-        }
+           }
         $ingredients = $dom_get->query("//div[@class='text']");
         if(!is_null($ingredients)) {
             foreach($ingredients as $ingredientsContent){
-                $ingredientData = $ingredientsContent->nodeValue;
+                if(!is_null($ingredientsContent->nodeValue)){
+                    $ingredientData = $ingredientsContent->nodeValue;
+                }else{
+                    $ingredientData  = "no content" ;
+                }
+
             }
 
+        }
+        else {
+            $ingredientData = "no content" ;
         }
         $procedure = " ";
         $preparation =  $dom_get->query("//td[@valign='TOP']/ul/li");
@@ -253,7 +353,21 @@ class CategoriesController extends AppController {
             $procedure .= $steps->nodeValue ;
         }
 
-        $recipeDetails = array("name" => $recipeName , "image" => $imageValue , "ingredients" => $ingredientData , "preparation" => $procedure);
+        //$imagePath = isset($imageValue)?$imageValue:"no image" ;
+        if(!empty($imageValue)){
+           $imagePath = $imageValue ;
+        }else{
+            $imagePath = "no image" ;
+        }
+
+        if(!empty($ingredientData)){
+           $ingredientsShow = $ingredientData ;
+        }else{
+            $ingredientsShow  = "no ingredients" ;
+        }
+
+
+       $recipeDetails = array("name" => $recipeName , "image" => $imagePath , "CategoryId" => $Id, "ingredients" => $ingredientsShow , "preparation" => $procedure);
 
          return $recipeDetails ;
 

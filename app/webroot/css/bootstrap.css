@@ -6165,3 +6165,6 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+.imgbrd {
+    border: 1px solid #ECECEC;
+}

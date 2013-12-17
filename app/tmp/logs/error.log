@@ -699,3 +699,508 @@ Stack Trace:
 #3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-12-16 19:33:24 Error: Fatal Error (1): Maximum execution time of 30 seconds exceeded in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Utility/Debugger.php, line 549]
+2013-12-16 19:33:24 Error: [FatalErrorException] Maximum execution time of 30 seconds exceeded
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Maximum executi...', '/home/webonise/...', 549)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum executi...', '/home/webonise/...', 549, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Maximum executi...', '/home/webonise/...', 549, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:03:34 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 225]
+2013-12-17 10:03:34 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/webonise/...', 225)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/webonise/...', 225, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/webonise/...', 225, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:28:09 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 214]
+2013-12-17 10:28:09 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 214)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 214, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webonise/...', 214, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:32:20 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 215]
+2013-12-17 10:32:20 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 215)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 215, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webonise/...', 215, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:33:07 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 217]
+2013-12-17 10:33:07 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 217)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 217, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webonise/...', 217, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:33:11 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 217]
+2013-12-17 10:33:11 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 217)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 217, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webonise/...', 217, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:33:37 Error: Fatal Error (4): syntax error, unexpected '[', expecting ')' in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 219]
+2013-12-17 10:33:37 Error: [FatalErrorException] syntax error, unexpected '[', expecting ')'
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 219)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 219, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webonise/...', 219, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:35:21 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 262]
+2013-12-17 10:35:21 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/webonise/...', 262)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/webonise/...', 262, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/webonise/...', 262, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:44:00 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 75]
+2013-12-17 10:44:00 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/webonise/...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/webonise/...', 75, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/webonise/...', 75, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:44:51 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 75]
+2013-12-17 10:44:51 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/webonise/...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/webonise/...', 75, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/webonise/...', 75, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:46:54 Error: Fatal Error (1): Call to a member function create() on a non-object in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 75]
+2013-12-17 10:46:54 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/webonise/...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/webonise/...', 75, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/webonise/...', 75, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 10:58:41 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/View/Layouts/default.ctp, line 26]
+2013-12-17 10:58:41 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/webonise/...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/webonise/...', 26, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 11:05:35 Error: [MissingControllerException] Controller class RecipesController could not be found.
+Exception Attributes: array (
+  'class' => 'RecipesController',
+  'plugin' => NULL,
+)
+Request URL: /recipes/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 11:06:03 Error: [MissingViewException] View file "/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/View/Recipes/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/View/Recipes/index.ctp',
+)
+Request URL: /recipes/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(RecipesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::food.css() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'food.css',
+)
+Request URL: /categories/food.css
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/logo.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 12:33:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/indain-breads.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/top.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 12:33:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/rakhi.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/non-veg.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/indo-chinese.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/vegetarian.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/snacks.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/bg-td.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/microwave-cookinh.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/desserts.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/body-bg.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingActionException] Action CategoriesController::images() could not be found.
+Exception Attributes: array (
+  'controller' => 'CategoriesController',
+  'action' => 'images',
+)
+Request URL: /categories/images/bg-td-home.jpg
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-12-17 12:33:24 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 12:33:25 Error: [MissingControllerException] Controller class ImagesController could not be found.
+Exception Attributes: array (
+  'class' => 'ImagesController',
+  'plugin' => NULL,
+)
+Request URL: /images/blt.gif
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 14:25:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'imagepath' cannot be null
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `we...', Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1003): DboSource->execute('INSERT INTO `we...')
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(1830): DboSource->create(Object(Recipe), Array, Array)
+#4 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Model/Model.php(2236): Model->save(Array, Array)
+#5 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php(313): Model->saveMany(Array)
+#6 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php(26): CategoriesController->getRecipe('http://www.indi...')
+#7 [internal function]: CategoriesController->index()
+#8 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CategoriesController), Array)
+#9 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest), Object(CakeResponse))
+#11 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-12-17 15:04:00 Error: Fatal Error (1): Call to undefined method DOMNodeList::getAttribute() in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 394]
+2013-12-17 15:04:00 Error: [FatalErrorException] Call to undefined method DOMNodeList::getAttribute()
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/webonise/...', 394)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/webonise/...', 394, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/webonise/...', 394, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 15:04:55 Error: Fatal Error (1): Call to undefined method DOMNodeList::getAttribute() in [/home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/Controller/CategoriesController.php, line 395]
+2013-12-17 15:04:55 Error: [FatalErrorException] Call to undefined method DOMNodeList::getAttribute()
+Request URL: /categories/
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/webonise/...', 395)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/webonise/...', 395, Array)
+#2 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/webonise/...', 395, Array)
+#3 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-12-17 15:38:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:40:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:43:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:45:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:46:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:47:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:48:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:48:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:48:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:48:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:49:28 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:49:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:49:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:49:33 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:49:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:50:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-12-17 15:50:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/no%20image
+Stack Trace:
+#0 /home/webonise/projects/php/apps2013/WebCrawler-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
