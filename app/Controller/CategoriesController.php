@@ -144,8 +144,8 @@ class CategoriesController extends AppController {
 
         //var_dump($dom_document);
         $dom_xpath = new DOMXpath($dom_document);
-       // $anchorRegex = array("//td[@bgcolor='808C55']/div[@class='top-link']/a" ,"//td[@bgcolor='DCE8BD']/div[@class='flinks']/b/a");
-        $anchorRegex = array("//td[@bgcolor='808C55']/div[@class='top-link']/a" );
+        $anchorRegex = array("//td[@bgcolor='808C55']/div[@class='top-link']/a" ,"//td[@bgcolor='DCE8BD']/div[@class='flinks']/b/a");
+       // $anchorRegex = array("//td[@bgcolor='808C55']/div[@class='top-link']/a" );
         foreach($anchorRegex as $regex){
            $anchor[] = $dom_xpath->query($regex);
         }
