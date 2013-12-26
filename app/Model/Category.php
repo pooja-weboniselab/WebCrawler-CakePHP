@@ -8,14 +8,25 @@
  */
 class Category extends AppModel {
     public $hasMany = array(
-        'Recipe' => array(
-            'className' => 'Recipe' ,
-            'foreignKey' => 'categoryId',
-            'order' => 'Recipe.name DESC'
-        )
-
+       'CategoryRecipe' => array('className' => 'CategoryRecipe')
 
     );
+
+    function saveData($insertData) {
+       return $this->saveMany($insertData);
+    }
+
+    function fetchCategory(){
+        $data = $this->find('all', array('recursive' => -1, 'limit' => 50));
+        return $data ;
+    }
+
+    function saveRecipe($insertRecipe){
+        return $this->Recipe->saveMany($insertRecipe) ;
+    }
+
+
+
 
 }
 ?>

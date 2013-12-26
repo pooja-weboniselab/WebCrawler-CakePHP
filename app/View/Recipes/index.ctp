@@ -2,11 +2,15 @@
 <h1>Recipe List</h1>
     <div class="table-responsive">
 <table class="table table-bordered">
+    <tr><?php
+        echo $this->Form->create('Filter');
+        echo $this->Form->input('name', array('row'=> '1'));
+        echo $this->Form->end('Search');?></tr>
     <tr>
         <th>Id</th>
         <th>Name</th>
         <th>ImagePath</th>
-        <th>CategoryId</th>
+        <th>CategoryName</th>
         <th>Ingredients</th>
         <th>Preparation</th>
         <th>Created</th>
